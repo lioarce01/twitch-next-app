@@ -3,4 +3,16 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: [
+      "avatars.githubusercontent.com",
+      "lh3.googleusercontent.com",
+      "robohash.org",
+      "static-cdn.jtvnw.net",
+      "robohash.org",
+      "static-cdn.jtvnw.net",
+      "www.twitch.tv",
+    ],
+  },
+}
